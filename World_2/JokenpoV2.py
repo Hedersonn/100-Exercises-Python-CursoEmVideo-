@@ -45,7 +45,9 @@ print(azul_negrito + '+-' * 12 + limpa)
 #condições do jogo
 if jokenpo_numero == escolha:
     print(negrito +'Empate!' + limpa)
-elif escolha == 0 and jokenpo_numero == 2 or escolha == 1 and jokenpo_numero == 0 or escolha == 2 and jokenpo_numero == 1:
+elif escolha == 0 and jokenpo_numero == 1\
+        or escolha == 1 and jokenpo_numero == 2\
+        or escolha == 2 and jokenpo_numero == 0:
     print(azul_claro + negrito + 'Ganhei! HAHA!!' + limpa)
 else:
     print(vermelho + negrito + 'Perdi!' + limpa)
