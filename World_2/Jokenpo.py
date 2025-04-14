@@ -6,7 +6,7 @@ from random import randint
 computador = randint(1, 3)
 
 #Interação
-escolha = int(input('''Digite: 
+escolha = int(input('''Digite:
 [ 1 ] PEDRA
 [ 2 ] PAPEL
 [ 3 ] TESOURA
