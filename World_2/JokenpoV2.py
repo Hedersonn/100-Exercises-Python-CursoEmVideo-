@@ -28,6 +28,7 @@ escolha -= 1
 if escolha not in [0, 1, 2]:
     print(vermelho + negrito + sublinhado + 'Erro!' + limpa)
     quit()
+
 #palavra jokenpo
 sleep(0.4)
 print(f'{sublinhado + negrito}JO', end='')
