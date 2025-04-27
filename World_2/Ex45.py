@@ -52,3 +52,4 @@ elif escolha == 0 and jokenpo_numero == 1\
     print(azul_claro + negrito + 'Ganhei! HAHA!!' + limpa)
 else:
     print(vermelho + negrito + 'Perdi!' + limpa)
+    
