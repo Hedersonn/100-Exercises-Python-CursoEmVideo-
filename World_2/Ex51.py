@@ -4,9 +4,9 @@
 #Valores
 primeiro_termo = int(input('Termo: '))
 razao = int(input('Razão: '))
-termos = primeiro_termo + (10 - 1) * razao
+termos = primeiro_termo + (11 - 1) * razao
 
 #Repetição
-for _ in range(primeiro_termo, termos, razao):
-    print(_, end=' - ')
-    print('Fim!')
+for i in range(primeiro_termo, termos, razao):
+    print(i, end=' - ')
+print('Fim!')
