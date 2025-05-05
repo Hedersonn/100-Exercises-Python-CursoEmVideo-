@@ -23,5 +23,4 @@ media = soma / contador
 print(f""" Maior valor: {maior}
 Menor valor: {menor}
 Soma entre todos os numeros: {soma}
-Media entre eles: {media:.2f} """)
-    
+Media entre eles: {media:.2f}""")

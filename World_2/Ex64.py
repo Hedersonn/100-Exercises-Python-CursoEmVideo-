@@ -6,8 +6,7 @@
 numero = int(input("Digite um numero inteiro (999 cancela)\n> "))
 
 #Contadores
-quantidade = 0
-soma = 0
+quantidade = soma = 0
 
 #Loop
 while numero != 999:
